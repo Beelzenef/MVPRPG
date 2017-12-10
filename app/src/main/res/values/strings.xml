@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MVPRPG</string>
+
+    <string name="tIL_NivelP">Nivel de personaje</string>
+    <string name="tIL_ClaseP">Clase de personaje</string>
+    <string name="tIL_NombreP">Nombre de personaje</string>
 </resources>
