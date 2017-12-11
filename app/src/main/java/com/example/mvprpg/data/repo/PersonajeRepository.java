@@ -3,6 +3,7 @@ package com.example.mvprpg.data.repo;
 import com.example.mvprpg.data.pojo.Personaje;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 /**
  * Repositorio de personajes
@@ -28,6 +29,7 @@ public class PersonajeRepository {
     }
 
     public ArrayList<Personaje> getPersonajes() {
+        Collections.sort(listaPersonajes);
         return listaPersonajes;
     }
 

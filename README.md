@@ -10,5 +10,5 @@ Práctica de MVP - DEINT 2017
 - [ ] Floating Action Button
 - [ ] ListView dinámico
 - [ ] Interfaces con Toolbar + ConstraintLayout
-
-
+- [x] Adapter, modelo Holder
+- [x] Clase POJO parcelable
