@@ -23,7 +23,7 @@ public class PersonajeRepository {
         initPersonajes();
     }
 
-    public PersonajeRepository getInstance() {
+    public static PersonajeRepository getInstance() {
         return personajeRepository;
     }
 
