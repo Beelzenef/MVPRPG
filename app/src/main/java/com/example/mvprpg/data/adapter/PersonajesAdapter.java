@@ -42,6 +42,7 @@ public class PersonajesAdapter extends ArrayAdapter<Personaje> {
 
             personajeHolder = new PersonajeHolder();
 
+            personajeHolder.icono = (MaterialLetterIcon) v.findViewById(R.id.mli_PJ);
             personajeHolder.txtV_Nombre = (TextView) v.findViewById(R.id.txtV_NombrePJ);
             personajeHolder.txtV_Clase = (TextView) v.findViewById(R.id.txtV_ClasePJ);
             personajeHolder.txtV_Nivel = (TextView) v.findViewById(R.id.txtV_NivelPJ);
@@ -55,7 +56,7 @@ public class PersonajesAdapter extends ArrayAdapter<Personaje> {
 
         personajeHolder.icono.setLetter(getItem(position).getNombre().substring(0,1));
         personajeHolder.txtV_Clase.setText(getItem(position).getClase());
-        personajeHolder.txtV_Nivel.setText(getItem(position).getNivel());
+        personajeHolder.txtV_Nivel.setText(Integer.toString(getItem(position).getNivel()));
         personajeHolder.txtV_Nombre.setText(getItem(position).getNombre());
 
         return v;
